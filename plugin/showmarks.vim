@@ -139,10 +139,12 @@ if g:showmarks_enable == 1
 endif
 
 " Highlighting: Setup some nice colours to show the mark positions.
-hi default ShowMarksHLl ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
-hi default ShowMarksHLu ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
-hi default ShowMarksHLo ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
-hi default ShowMarksHLm ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
+hi default ShowMarksHLl ctermfg=darkblue ctermbg=0 guifg=blue guibg=lightblue gui=bold
+hi default ShowMarksHLu ctermfg=darkblue ctermbg=0 guifg=blue guibg=lightblue gui=bold
+hi default ShowMarksHLo ctermfg=darkblue ctermbg=0 guifg=blue guibg=lightblue gui=bold
+hi default ShowMarksHLm ctermfg=darkblue ctermbg=0 guifg=blue guibg=lightblue gui=bold
+" without marks 
+"hi SignColumn ctermbg=0
 
 " Function: GetMarkLine()
 " Authors: Easwy Yang
